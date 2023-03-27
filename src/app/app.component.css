@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+
+.customDiv {
+    min-height: 150px;
+    font-size: large;
+    background-color: silver;
+    text-align: center;
+    padding: 10px;
+}
