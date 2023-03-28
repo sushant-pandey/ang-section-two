@@ -1,54 +1,57 @@
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse me-auto" id="navbarNavDropdown">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Recipe Book</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#"></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Recipes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Shopping List</a>
         </li>
+      </ul>
+    </div>
+
+    <!---->
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNavDropdown"
+    >
+      <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a
             class="nav-link dropdown-toggle"
             href="#"
             role="button"
             data-bs-toggle="dropdown"
-            data-bs-target="dropdown-items"
             aria-expanded="false"
           >
-            Dropdown link
+            Manage
           </a>
-          <ul class="dropdown-menu" id="dropdown-items">
+          <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#">Action</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
       </ul>
     </div>
-    <!-- </div> -->
-  </nav>
-</div>
+  </div>
+</nav>
 
-<!-- <app-recipes></app-recipes>
-<app-shopping-list></app-shopping-list> -->
+<app-recipes></app-recipes>
+<app-shopping-list></app-shopping-list>
